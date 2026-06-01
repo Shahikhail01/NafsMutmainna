@@ -1,0 +1,34 @@
+# NafsMutmainna - Tazkiyah Journey App
+
+# Development
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jest
+coverage/
+
+# Build
+android/app/build/
+ios/Pods/
+*.apk
+*.aab
+*.ipa
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+__snapshots__/

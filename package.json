@@ -1,0 +1,48 @@
+{
+    "name": "nafsmutmainna",
+    "version": "1.0.0",
+    "main": "expo-router/entry",
+    "scripts": {
+        "start": "expo start",
+        "android": "expo run:android",
+        "ios": "expo run:ios",
+        "web": "expo start --web",
+        "lint": "eslint .",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@expo/vector-icons": "^15.1.1",
+        "@react-native-async-storage/async-storage": "^3.1.1",
+        "@react-navigation/bottom-tabs": "^7.0.0",
+        "@react-navigation/native": "^7.0.0",
+        "@react-navigation/native-stack": "^7.0.0",
+        "@tanstack/react-query": "^5.60.0",
+        "axios": "^1.7.0",
+        "babel-plugin-module-resolver": "^5.0.3",
+        "date-fns": "^4.1.0",
+        "expo": "~52.0.0",
+        "expo-constants": "~17.0.0",
+        "expo-router": "~4.0.0",
+        "expo-status-bar": "~2.0.0",
+        "react": "18.3.1",
+        "react-native": "0.76.5",
+        "react-native-safe-area-context": "~4.12.0",
+        "react-native-screens": "~4.4.0",
+        "uuid": "^11.0.0",
+        "zustand": "^5.0.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.25.0",
+        "@testing-library/react-native": "^12.8.0",
+        "@types/node": "^25.9.1",
+        "@types/react": "~18.3.0",
+        "@types/uuid": "^10.0.0",
+        "eslint": "^8.57.0",
+        "jest": "^29.7.0",
+        "prettier": "^3.3.0",
+        "typescript": "~5.6.0"
+    },
+    "private": true
+}
